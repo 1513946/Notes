@@ -1,0 +1,70 @@
+T3854 000:045.874   SEGGER J-Link V7.82 Log File
+T3854 000:046.116   DLL Compiled: Oct 13 2022 13:32:51
+T3854 000:046.165   Logging started @ 2025-03-24 14:49
+T3854 000:046.212 - 46.236ms
+T3854 000:046.268 JLINK_SetWarnOutHandler(...)
+T3854 000:046.318 - 0.073ms
+T3854 000:046.368 JLINK_OpenEx(...)
+T3854 000:047.842   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T3854 000:048.402   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T3854 000:050.323   Hardware: V7.00
+T3854 000:050.420   S/N: 20090928
+T3854 000:050.493   OEM: SEGGER
+T3854 000:050.565   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T3854 000:051.732   TELNET listener socket opened on port 19021
+T3854 000:052.061   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3854 000:052.339   WEBSRV Webserver running on local port 19080
+T3854 000:068.734 - 22.423ms returns "O.K."
+T3854 000:068.834 JLINK_GetEmuCaps()
+T3854 000:068.872 - 0.055ms returns 0x88EA5833
+T3854 000:068.914 JLINK_TIF_GetAvailable(...)
+T3854 000:069.126 - 0.243ms
+T3854 000:069.184 JLINK_SetErrorOutHandler(...)
+T3854 000:069.221 - 0.056ms
+T3854 000:069.280 JLINK_ExecCommand("ProjectFile = "E:\24-25赛季 RM\技术\25赛季_CRG\25赛季_小麦轮步兵\小麦轮\两路can滑环 - 云台底盘一个板子\小麦轮云台\25_mini_gimbal\MDK-ARM\JLinkSettings.ini"", ...). 
+T3854 000:088.464 - 19.217ms returns 0x00
+T3854 000:097.363 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T3854 000:107.997   Device "STM32F407IG" selected.
+T3854 000:108.726 - 11.330ms returns 0x00
+T3854 000:108.796 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3854 000:108.837 - 0.020ms returns 0x01
+T3854 000:108.877 JLINK_GetHardwareVersion()
+T3854 000:108.916 - 0.057ms returns 70000
+T3854 000:108.958 JLINK_GetDLLVersion()
+T3854 000:108.993 - 0.053ms returns 78200
+T3854 000:109.031 JLINK_GetOEMString(...)
+T3854 000:109.068 JLINK_GetFirmwareString(...)
+T3854 000:109.104 - 0.053ms
+T3854 000:135.651 JLINK_GetDLLVersion()
+T3854 000:135.718 - 0.088ms returns 78200
+T3854 000:135.765 JLINK_GetCompileDateTime()
+T3854 000:135.809 - 0.061ms
+T3854 000:146.037 JLINK_GetFirmwareString(...)
+T3854 000:146.112 - 0.100ms
+T3854 000:158.361 JLINK_GetHardwareVersion()
+T3854 000:158.421 - 0.078ms returns 70000
+T3854 000:167.134 JLINK_GetSN()
+T3854 000:167.210 - 0.103ms returns 20090928
+T3854 000:176.350 JLINK_GetOEMString(...)
+T3854 000:196.454 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3854 000:196.878 - 0.451ms returns 0x00
+T3854 000:196.932 JLINK_HasError()
+T3854 000:196.977 JLINK_SetSpeed(1000)
+T3854 000:197.129 - 0.191ms
+T3854 000:197.195 JLINK_GetId()
+T3854 000:206.637   InitTarget() start
+T3854 000:206.736    J-Link Script File: Executing InitTarget()
+T3854 000:216.777   Can not attach to CPU. Trying connect under reset.
+T3854 000:277.594   Connecting to CPU via connect under reset failed.
+T3854 000:336.754   InitTarget() end
+T3854 000:344.236   Connect failed. Resetting via Reset pin and trying again.
+T3854 000:413.112   InitTarget() start
+T3854 000:413.191    J-Link Script File: Executing InitTarget()
+T3854 000:424.856   Can not attach to CPU. Trying connect under reset.
+T3854 000:486.874   Connecting to CPU via connect under reset failed.
+T3854 000:544.665   InitTarget() end
+T3854 000:544.745 - 347.568ms returns 0x00000000
+T3854 002:195.544 JLINK_Close()
+T3854 002:210.824 - 15.329ms
+T3854 002:210.899   
+T3854 002:210.948   Closed
