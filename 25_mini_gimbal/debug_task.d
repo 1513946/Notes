@@ -59,3 +59,4 @@
 .\25_mini_gimbal\debug_task.o: ../balance_bsp/scm_bsp/imu_driver/ist8310/ist8310driver.h
 .\25_mini_gimbal\debug_task.o: ../balance_bsp/scm_bsp/imu_driver/bm1088/BMI088driver.h
 .\25_mini_gimbal\debug_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+.\25_mini_gimbal\debug_task.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h

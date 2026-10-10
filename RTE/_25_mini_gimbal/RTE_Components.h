@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'gimbal' 
+ * Project: '25_mini_gimbal' 
  * Target:  '25_mini_gimbal' 
  */
 

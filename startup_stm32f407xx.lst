@@ -831,10 +831,11 @@ ARM Macro Assembler    Page 13
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=.\25_mini_gimbal\startup_stm32f407xx.d -o.\25_mini_gimbal\st
-artup_stm32f407xx.o -I..\Core\Inc -I.\RTE\_25_mini_gimbal -ID:\Keil5\ARM\CMSIS\
-5.8.0\CMSIS\Core\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION
-_VERSION SETA 535" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" 
---predefine="_RTE_ SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
+artup_stm32f407xx.o -I..\Core\Inc -I../Middlewares/ST/ARM/DSP/Inc -I.\RTE\_gimb
+al -ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include --predefine="__MICROLIB SETA 1
+" --predefine="__UVISION_VERSION SETA 535" --predefine="_RTE_ SETA 1" --predefi
+ne="STM32F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f407xx.l
+st startup_stm32f407xx.s
 
 
 

@@ -40,3 +40,4 @@
 .\25_mini_gimbal\joint_motor_lqr.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 .\25_mini_gimbal\joint_motor_lqr.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 .\25_mini_gimbal\joint_motor_lqr.o: ../balance_bsp/math_bsp/c_data_typedef.h
+.\25_mini_gimbal\joint_motor_lqr.o: ../algorithm/user_lib.h
